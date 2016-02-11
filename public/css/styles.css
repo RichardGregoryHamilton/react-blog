@@ -1,0 +1,77 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.7;
+  margin: 0;
+  padding: 30px;
+}
+
+a {
+  color: #4183c4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1, h3 {
+  font-weight: bold;
+  margin: 0 0 15px;
+  padding: 0;
+}
+
+h1 {
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+p {
+  margin: 15px 0;
+}
+
+main {
+  width: 60%;
+  margin: 0 auto;
+}
+
+/* Form for creating new blog posts */
+
+.form-group, input[type=submit] {
+  margin-top: 1%;
+}
+
+label {
+  display: inline-block;
+  width: 7%;
+  text-align: right;
+  margin-right: 2%;
+  font-weight: bold;
+}
+
+/* Comments */
+
+.comment-poster {
+  display: inline-block;
+  text-align: right;
+  width: 10%;
+}
+
+.comment-message {
+  margin-left: 10%;
+}
+
+#new-comment, .submit-comment, #back-button {
+  color: white;
+  padding: 1%;
+}
+
+#new-comment { background: blue; }
+#back-button { background: chocolate; }
+#back-button a { color: white; }
+.submit-comment { background: green; }
+.error { color: red; }
+
+.form, .submit-comment, #new-comment {
+  margin-top: 2%;
+}
